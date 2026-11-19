@@ -1,0 +1,37 @@
+# Terraform Files
+.terraform/
+.terraform.lock.hcl
+ 
+# Terraform State Files
+*.tfstate
+*.tfstate.*
+ 
+# Variable Files containing Secrets
+*.tfvars
+*.tfvars.json
+ 
+# Crash Logs
+crash.log
+crash.*.log
+ 
+# Terraform Override Files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+ 
+# Plan Files
+*.tfplan
+ 
+# Sensitive Files
+credentials
+*.pem
+*.key
+ 
+# IDE
+.vscode/
+.idea/
+ 
+# OS Files
+.DS_Store
+Thumbs.db
